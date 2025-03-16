@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const students = [
+  { id: 0, name: "Alirio Diaz", dni: "96011190", birthdate: "1979-09-03", photo: "https://res.cloudinary.com/dfddh08q8/image/upload/s--lPJjKAcw--/v1700682516/images/qrpdve99ldgodwftz5lu.png" },
   { id: 1, name: "Juan Manuel Cerúndolo", dni: "12345678", birthdate: "2005-08-15", photo: "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2021%2F0301%2Fr821016_1024x576_16%2D9.jpg&w=1140&cquality=40&format=jpg" },
   { id: 2, name: "María López", dni: "87654321", birthdate: "2008-03-22", photo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1717139295/forex/forex_academy_professional_estudiando_421.jpg" },
   { id: 3, name: "Pablo Gómez", dni: "45678912", birthdate: "2003-11-10", photo: "https://res.cloudinary.com/dvy9qircy/image/upload/v1742144419/forex/forex_academy_professional_pablo-tenisinstruictr.jpg" },
@@ -31,7 +33,9 @@ export default function Tenis() {
       <h1 className="text-2xl font-bold text-orange-600 mb-4">Lista de Alumnos de Tenis</h1>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {students.map((student) => (
+             <Link key={student.id} href={'/tenis/'+student.id} className="">
           <div key={student.id} className="bg-white shadow-lg rounded-xl p-4 flex items-center gap-4">
+          
             <Image
               src={student.photo}
               width={80}
@@ -44,7 +48,9 @@ export default function Tenis() {
               <p className="text-gray-600 text-sm">DNI: {student.dni}</p>
               <p className="text-gray-600 text-sm">Edad: {calculateAge(student.birthdate)} años</p>
             </div>
+            
           </div>
+          </Link>
         ))}
       </div>
     </div>
