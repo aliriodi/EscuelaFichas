@@ -132,6 +132,7 @@ export default function CourseCards() {
 
   return (
     <div className="flex flex-col md:flex-row gap-4 p-4">
+      {/* <div>Hola</div> */}
       {courses.map((course) => (
         <div key={course.id} className="bg-white shadow-lg rounded-2xl p-4 w-full md:w-1/2">
           <Image src={course.image} width='100' height='100' alt={course.name} className="w-full h-40 object-cover rounded-lg text-orange-500" />
