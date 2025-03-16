@@ -25,17 +25,20 @@ export default function CourseCards() {
 
   return (
     <div className="flex flex-col md:flex-row gap-4 p-4">
+         
       {/* <div>Hola</div> */}
       {courses.map((course) => (
          
-        <div key={course.id} className="bg-white shadow-lg rounded-2xl p-4 w-full md:w-1/2">
-           <Link key={course.id} href={course.link} className="w-full md:w-1/2">
+        <div key={course.id} className="bg-white  rounded-2xl p-4 w-full md:w-1/2  hover:shadow-[4px_12px_15px_0px_#efa70c]">
+           
+           <Link key={course.id} href={course.link} className="w-full md:w-1/2 ">
           <Image src={course.image} width='100' height='100' alt={course.name} className="w-full h-40 object-cover rounded-lg text-orange-500" />
           <h2 className="text-lg text-orange-600 font-semibold mt-3">{course.name}</h2>
           <p className="text-orange-600 text-sm">{course.description}</p>
           <p className="mt-2 text-sm text-orange-500">{course.icon} {course.students} alumnos</p>
           </Link>
-        </div>
+         
+          </div>
         
       ))}
     </div>
