@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+const students = require('../public/doc.json');
+
 export default function CourseCards() {
  const courses = [
    {
@@ -8,7 +10,7 @@ export default function CourseCards() {
      name: "ESCUELA DE TENIS",
      description: "Escuela de Tenis de Rieles",
      icon:"🎾",
-     students:"8",
+     students:students.students.length,
      image: "https://plus.unsplash.com/premium_photo-1666913667081-1d6c8ccb5143?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
      link: "/tenis",
    },
@@ -24,9 +26,12 @@ export default function CourseCards() {
  ];
 
  return (
+
+
    <div className="flex flex-col md:flex-row gap-4 p-4">
-        
+            
      {/* <div>Hola</div> */}
+     
      {courses.map((course) => (
         
        <div key={course.id} className="bg-white  rounded-2xl p-4 w-full md:w-1/2  hover:shadow-[4px_12px_15px_0px_#efa70c]">
