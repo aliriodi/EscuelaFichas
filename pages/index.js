@@ -26,9 +26,12 @@ export default function CourseCards() {
  ];
 
  return (
+
+
    <div className="flex flex-col md:flex-row gap-4 p-4">
-        
+            
      {/* <div>Hola</div> */}
+     
      {courses.map((course) => (
         
        <div key={course.id} className="bg-white  rounded-2xl p-4 w-full md:w-1/2  hover:shadow-[4px_12px_15px_0px_#efa70c]">

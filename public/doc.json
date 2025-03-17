@@ -1,13 +1,13 @@
 {
     "students" : [
-        { "id": 0, "role":["admin","user"], "name": "Alirio Diaz", "dni": "96011190", "birthdate": "1979-09-03", "photo": "https://res.cloudinary.com/dfddh08q8/image/upload/s--lPJjKAcw--/v1700682516/images/qrpdve99ldgodwftz5lu.png", "gender":"Masculino", "health":"Diabetico Tipo I", "medicaments":"Insulina tipo Novorapid y Glarguina","emergency":"351-5913974", "phone":"351-6132710", "address":"Antonio del Viso 980 depto 1C" },
-        { "id": 1, "role":["user"], "name": "Juan Manuel Cerúndolo", "dni": "12345678", "birthdate": "2005-08-15", "photo": "https://www.atptour.com/-/media/alias/player-headshot/C0C8" },
-        { "id": 2, "role":["user"], "name": "María López", "dni": "87654321", "birthdate": "2008-03-22", "photo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1717139295/forex/forex_academy_professional_estudiando_421.jpg" },
-        { "id": 3, "role":["teacher"],  "name": "Pablo Gómez", "dni": "45678912", "birthdate": "2003-11-10", "photo": "" },
-        { "id": 4, "role":["user"],  "name": "Pedro Fernández", "dni": "15975346", "birthdate": "2006-02-18", "photo": "" },
-        { "id": 5, "role":["user"],  "name": "Guillermo Coria", "dni": "65432187", "birthdate": "2005-12-03", "photo": "https://www.argentina.gob.ar/sites/default/files/gq8c5uuwgaaprr8.jpg" },
-        { "id": 6, "role":["user"],  "name": "Julia Riera", "dni": "98745632", "birthdate": "2002-06-25", "photo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1742145337/forex/JuliaRiera_s0zsxr.jpg" },
-        { "id": 7, "role":["user"],  "name": "Tomas Etcheverry", "dni": "65498721", "birthdate": "2010-01-08", "photo": "https://www.clarin.com/img/2021/03/23/g2-Ex8QbM_720x0__1.jpg" }
+        { "id": 0, "role":["admin","usert","userf"], "name": "Alirio Diaz", "dni": "96011190", "birthdate": "1979-09-03", "photo": "https://res.cloudinary.com/dfddh08q8/image/upload/s--lPJjKAcw--/v1700682516/images/qrpdve99ldgodwftz5lu.png", "gender":"Masculino", "health":"Diabetico Tipo I", "medicaments":"Insulina tipo Novorapid y Glarguina","emergency":"351-5913974", "phone":"351-6132710", "address":"Antonio del Viso 980 depto 1C" },
+        { "id": 1, "role":["usert"], "name": "Juan Manuel Cerúndolo", "dni": "12345678", "birthdate": "2005-08-15", "photo": "https://www.atptour.com/-/media/alias/player-headshot/C0C8" },
+        { "id": 2, "role":["usert"], "name": "María López", "dni": "87654321", "birthdate": "2008-03-22", "photo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1717139295/forex/forex_academy_professional_estudiando_421.jpg" },
+        { "id": 3, "role":["teachert"],  "name": "Pablo Gómez", "dni": "45678912", "birthdate": "2003-11-10", "photo": "" },
+        { "id": 4, "role":["usert"],  "name": "Pedro Fernández", "dni": "15975346", "birthdate": "2006-02-18", "photo": "" },
+        { "id": 5, "role":["usert"],  "name": "Guillermo Coria", "dni": "65432187", "birthdate": "2005-12-03", "photo": "https://www.argentina.gob.ar/sites/default/files/gq8c5uuwgaaprr8.jpg" },
+        { "id": 6, "role":["usert"],  "name": "Julia Riera", "dni": "98745632", "birthdate": "2002-06-25", "photo": "https://res.cloudinary.com/dvy9qircy/image/upload/v1742145337/forex/JuliaRiera_s0zsxr.jpg" },
+        { "id": 7, "role":["usert"],  "name": "Tomas Etcheverry", "dni": "65498721", "birthdate": "2010-01-08", "photo": "https://www.clarin.com/img/2021/03/23/g2-Ex8QbM_720x0__1.jpg" }
       ]
 
 }
